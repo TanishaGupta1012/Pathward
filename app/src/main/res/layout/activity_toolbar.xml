@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="12dp"
+    android:background="@color/colorAccent"
+    android:gravity="center_vertical">
+
+    <ImageView
+        android:id="@+id/menu"
+        android:src="@drawable/ic_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="clickMenu"/>
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="Pathward"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        />
+
+    <ImageView
+        android:id="@+id/more"
+        android:src="@drawable/ic_more"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="clickMenu"
+        />
+
+
+</LinearLayout>
